@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#5e8271;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url();
+    background-color: #33454e;
+    color: #ffecd1;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #ffecd1;
+}
+
+section {
+    background-color:#e6a06f;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    color: #ffecd1;
+    border-bottom: 2px solid #ffecd1;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #242739;
+    color: #fff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.proyectos-realizados ul li {
+    border-left: 2px solid #007bff;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
+.informacion-contacto ul li {
+    display: flex;
+    align-items: center;
+}
+
+.informacion-contacto ul li a {
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    header img {
+        max-width: 100px;
+    }
+}
